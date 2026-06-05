@@ -38,7 +38,7 @@ bus-station/
 │  │  (Python + cron)         │    │  (Nginx)            │  │
 │  │  ┌────────────────────┐  │    │  ┌───────────────┐  │  │
 │  │  │   fetch_data.py    │  │    │  │  /usr/share/  │  │  │
-│  │  │  (5분마다 API호출) │  │    │  │  nginx/html/  │  │  │
+│  │  │  (5분마다 API호출)  │  │    │  │  nginx/html/  │  │  │
 │  │  │         ↓          │  │    │  │  index.html   │  │  │
 │  │  │    index.html 생성 │  │    │  └──────┬────────┘  │  │
 │  │  └─────────┬──────────┘  │    │         │           │  │
