@@ -59,7 +59,7 @@ bus-station/
 
 ### 사전 요구사항
 - Docker Desktop (또는 Docker Engine + Docker Compose) 설치
-- 인터넷 연결 (Open-Meteo API 호출용)  
+- 인터넷 연결 (행정안전부 버스 정류장 API 호출용)  
 **※중요※ KAKAO_API_KEY, KAKAO_JS_KEY 입력 필요!!**
 
 ### 1. 프로젝트 폴더로 이동
