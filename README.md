@@ -1,6 +1,6 @@
 # 울산 버스 노선도 Docker Compose 자동화 프로젝트
 
-> **Open-Meteo 버스 정류장 API** × **Docker Compose** × **Nginx**  
+> **행정안전부 버스 정류장 API** × **Docker Compose** × **Nginx**  
 > 버스의 위치를 5분마다 자동 갱신
 
 ---
@@ -39,8 +39,8 @@ bus-station/
 │  │  ┌──────────────┐    │    │  ┌──────────────┐    │   │
 │  │  │ fetch_data.py│    │    │  │  /usr/share/ │    │   │
 │  │  │ ↓ 매 5분     │    │    │  │  nginx/html/ │    │   │
-│  │  │ Open-Meteo   │    │    │  │  index.html  │    │   │
-│  │  │ API 호출     │    │    │  └──────┬───────┘    │   │
+│  │  │ 행정안전부    │    │    │  │  index.html  │    │   │
+│  │  │ 버스 API 호출 │    │    │  └──────┬───────┘    │   │
 │  │  │ ↓            │    │    │         │            │   │
 │  │  │ index.html   │    │    │  Port 80 → 8080      │   │ 
 │  │  │ 생성         │    │    └──────────────────────┘   │
@@ -175,7 +175,7 @@ docker-compose down -v --rmi all
 
 ---
 
-## 🐛 트러블슈팅
+## 🐛 문제해결
 
 | 증상 | 해결법 |
 |------|--------|
