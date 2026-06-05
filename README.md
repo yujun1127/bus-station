@@ -63,6 +63,7 @@ bus-station/
 ### 사전 요구사항
 - Docker Desktop (또는 Docker Engine + Docker Compose) 설치
 - 인터넷 연결 (Open-Meteo API 호출용)
+- **KAKAO_API_KEY, KAKAO_JS_KEY** 입력 필요
 
 ### 1. 프로젝트 폴더로 이동
 
@@ -166,7 +167,7 @@ docker-compose down -v --rmi all
 
 | 항목 | 내용 |
 |------|------|
-| API 이름 | [Open-Meteo](https://open-meteo.com/) |
+| API 이름 | [행저안전부_버스 실시간 위치 정보(https://www.data.go.kr/data/15157601/openapi.do#/API%20%EB%AA%A9%EB%A1%9D/mst_info) |
 | 인증키 | **불필요** |
 | 요금 | **완전 무료** (비상업적 이용) |
 | 제한 | 분당 10,000 요청 |
