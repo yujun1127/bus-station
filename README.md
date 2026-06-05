@@ -136,7 +136,7 @@ docker-compose exec data-generator python fetch_data.py
 
 `CITIES` 리스트에 항목 추가:
 ```python
-{"name": "울산", "emoji": "kr", "lat": 39.9042, "lon": 116.4074, "tz": "Asia/Ulsan"},
+{"name": "울산", "emoji": "ko", "lat": 37.5388, "lon": 127.0827, "tz": "Asia/Ulsan"},
 ```
 
 ### 포트 변경 (`docker-compose.yml`)
