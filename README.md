@@ -167,7 +167,7 @@ docker-compose down -v --rmi all
 
 | 항목 | 내용 |
 |------|------|
-| API 이름 | [행저안전부_버스 실시간 위치 정보(https://www.data.go.kr/data/15157601/openapi.do#/API%20%EB%AA%A9%EB%A1%9D/mst_info) |
+| API 이름 | [행정안전부_버스 실시간 위치 정보](https://www.data.go.kr/data/15157601/openapi.do#/API%20%EB%AA%A9%EB%A1%9D/mst_info) |
 | 인증키 | **불필요** |
 | 요금 | **완전 무료** (비상업적 이용) |
 | 제한 | 분당 10,000 요청 |
