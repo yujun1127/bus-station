@@ -11,8 +11,8 @@ services:
     restart: unless-stopped
     environment:
       - TZ=Asia/Seoul
-      - KAKAO_API_KEY=
-      - KAKAO_JS_KEY=
+      - KAKAO_API_KEY="KAKAO_API_KEY"
+      - KAKAO_JS_KEY="KAKAO_JS_KEY"
     networks:
       - app-network
 
